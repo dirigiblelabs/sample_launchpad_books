@@ -1,0 +1,15 @@
+{
+  "entityName":"Books",
+  "tableName":"BOOKS",
+  "tableType":"TABLE",
+  "serviceName":"books.js",
+  "libraryName":"books_lib.js",
+  "specification":"books.swagger",
+  "getEnabled":"true",
+  "postEnabled":"true",
+  "putEnabled":"true",
+  "deleteEnabled":"true",
+  "countEnabled":"true",
+  "offsetAndLimitEnabled":"true",
+  "metadataEnabled":"true"
+}

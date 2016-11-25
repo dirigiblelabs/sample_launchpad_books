@@ -1,0 +1,5 @@
+{
+  "extension":"/launchpad/extension/books",
+  "extension-point":"/launchpad/extension_point/launchpad",
+  "description":"Doc Explorer extension for the Launchpad extension point"
+}
