@@ -6,19 +6,18 @@ const CONTROLLER_LOCATION = '/db/dirigible/registry/public/ScriptingServices/lau
 
 exports.getMenuItem = function() {
 	return {
-		name:"Books",
-		link:"#/books"
+		name: 'Books',
+		link: '#/books'
 	};
 };
 
 exports.getHomeItem = function() {
 	return {
-		image: "book",
-		color: "green",
-		path: "#/books",
-		title: "Books",
-		description: "Dirigible Books Sample",
-		newTab: true
+		image: 'book',
+		color: 'green',
+		path: '#/books',
+		title: 'Books',
+		description: 'Dirigible Books Sample'
 	};
 };
 

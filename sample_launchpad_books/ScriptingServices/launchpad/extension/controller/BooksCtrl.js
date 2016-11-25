@@ -47,7 +47,7 @@ controllers.controller('BooksCtrl', ['$scope', '$http',
                               	 if ($scope.selectedEntry) {
                                        $scope.operation = 'update';
                                    } else {
-                                       alert("Please first select entry for updated");
+                                       alert('Please first select entry for updated');
                                        $scope.operation = 'show';
                                    }
                               } else {
@@ -126,8 +126,8 @@ controllers.controller('BooksCtrl', ['$scope', '$http',
 
 			function deleteEntry(entry){
 				var primaryKey;
-				primaryKey = "bookid";
-				var deleteUrl = url+"?"+primaryKey+"="+entry[primaryKey];
+				primaryKey = 'bookid';
+				var deleteUrl = url + '?' + primaryKey + '=' + entry[primaryKey];
 				$http.delete(deleteUrl)
 				.success(function(){
 					refreshData();
